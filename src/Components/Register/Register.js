@@ -4,8 +4,7 @@ import signimg from '../../img/regimg.jpg';
 import axios from 'axios';
 import { useHistory } from 'react-router';
 import {Link} from 'react-router-dom'
-
-
+//new changes 
 const Register = () =>{
     const history = useHistory();
     const[name,setName]=useState('');
